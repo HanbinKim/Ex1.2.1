@@ -21,6 +21,14 @@
 		0073BBB7187E3EBF003E3D9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0073BB99187E3EBF003E3D9E /* UIKit.framework */; };
 		0073BBBF187E3EBF003E3D9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0073BBBD187E3EBF003E3D9E /* InfoPlist.strings */; };
 		0073BBC1187E3EBF003E3D9E /* Ex1_2_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0073BBC0187E3EBF003E3D9E /* Ex1_2_1Tests.m */; };
+		0073BBCE187E3EDC003E3D9E /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0073BBCB187E3EDC003E3D9E /* ProductCell.m */; };
+		0073BBCF187E3EDC003E3D9E /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 0073BBCD187E3EDC003E3D9E /* Product.m */; };
+		0073BBD5187E3EE1003E3D9E /* car1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0073BBD0187E3EE1003E3D9E /* car1.png */; };
+		0073BBD6187E3EE1003E3D9E /* car2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0073BBD1187E3EE1003E3D9E /* car2.png */; };
+		0073BBD7187E3EE1003E3D9E /* car3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0073BBD2187E3EE1003E3D9E /* car3.png */; };
+		0073BBD8187E3EE1003E3D9E /* car4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0073BBD3187E3EE1003E3D9E /* car4.png */; };
+		0073BBD9187E3EE1003E3D9E /* car5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0073BBD4187E3EE1003E3D9E /* car5.png */; };
+		0073BBDC187E3EF4003E3D9E /* Catalog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0073BBDB187E3EF4003E3D9E /* Catalog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,18 @@
 		0073BBBC187E3EBF003E3D9E /* Ex1.2.1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex1.2.1Tests-Info.plist"; sourceTree = "<group>"; };
 		0073BBBE187E3EBF003E3D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0073BBC0187E3EBF003E3D9E /* Ex1_2_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex1_2_1Tests.m; sourceTree = "<group>"; };
+		0073BBCA187E3EDC003E3D9E /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		0073BBCB187E3EDC003E3D9E /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		0073BBCC187E3EDC003E3D9E /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		0073BBCD187E3EDC003E3D9E /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		0073BBD0187E3EE1003E3D9E /* car1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car1.png; sourceTree = "<group>"; };
+		0073BBD1187E3EE1003E3D9E /* car2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car2.png; sourceTree = "<group>"; };
+		0073BBD2187E3EE1003E3D9E /* car3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car3.png; sourceTree = "<group>"; };
+		0073BBD3187E3EE1003E3D9E /* car4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car4.png; sourceTree = "<group>"; };
+		0073BBD4187E3EE1003E3D9E /* car5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car5.png; sourceTree = "<group>"; };
+		0073BBDA187E3EF4003E3D9E /* Catalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Catalog.h; sourceTree = "<group>"; };
+		0073BBDB187E3EF4003E3D9E /* Catalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Catalog.m; sourceTree = "<group>"; };
+		0073BBDD187E4E21003E3D9E /* CartDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CartDelegate.h; path = ../../../iPhone1/p201CartProductCell/p201CartProductCell/CartDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +102,11 @@
 		0073BB89187E3EBF003E3D9E = {
 			isa = PBXGroup;
 			children = (
+				0073BBD0187E3EE1003E3D9E /* car1.png */,
+				0073BBD1187E3EE1003E3D9E /* car2.png */,
+				0073BBD2187E3EE1003E3D9E /* car3.png */,
+				0073BBD3187E3EE1003E3D9E /* car4.png */,
+				0073BBD4187E3EE1003E3D9E /* car5.png */,
 				0073BB9B187E3EBF003E3D9E /* Ex1.2.1 */,
 				0073BBBA187E3EBF003E3D9E /* Ex1.2.1Tests */,
 				0073BB94187E3EBF003E3D9E /* Frameworks */,
@@ -112,13 +137,20 @@
 		0073BB9B187E3EBF003E3D9E /* Ex1.2.1 */ = {
 			isa = PBXGroup;
 			children = (
+				0073BBCA187E3EDC003E3D9E /* ProductCell.h */,
+				0073BBCB187E3EDC003E3D9E /* ProductCell.m */,
+				0073BBCC187E3EDC003E3D9E /* Product.h */,
+				0073BBCD187E3EDC003E3D9E /* Product.m */,
 				0073BBA4187E3EBF003E3D9E /* AppDelegate.h */,
 				0073BBA5187E3EBF003E3D9E /* AppDelegate.m */,
 				0073BBA7187E3EBF003E3D9E /* Main.storyboard */,
 				0073BBAA187E3EBF003E3D9E /* ViewController.h */,
 				0073BBAB187E3EBF003E3D9E /* ViewController.m */,
 				0073BBAD187E3EBF003E3D9E /* Images.xcassets */,
+				0073BBDD187E4E21003E3D9E /* CartDelegate.h */,
 				0073BB9C187E3EBF003E3D9E /* Supporting Files */,
+				0073BBDA187E3EF4003E3D9E /* Catalog.h */,
+				0073BBDB187E3EF4003E3D9E /* Catalog.m */,
 			);
 			path = Ex1.2.1;
 			sourceTree = "<group>";
@@ -229,7 +261,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0073BBAE187E3EBF003E3D9E /* Images.xcassets in Resources */,
+				0073BBD6187E3EE1003E3D9E /* car2.png in Resources */,
+				0073BBD7187E3EE1003E3D9E /* car3.png in Resources */,
+				0073BBD8187E3EE1003E3D9E /* car4.png in Resources */,
 				0073BBA0187E3EBF003E3D9E /* InfoPlist.strings in Resources */,
+				0073BBD5187E3EE1003E3D9E /* car1.png in Resources */,
+				0073BBD9187E3EE1003E3D9E /* car5.png in Resources */,
 				0073BBA9187E3EBF003E3D9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,8 +287,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0073BBAC187E3EBF003E3D9E /* ViewController.m in Sources */,
+				0073BBCF187E3EDC003E3D9E /* Product.m in Sources */,
+				0073BBCE187E3EDC003E3D9E /* ProductCell.m in Sources */,
 				0073BBA6187E3EBF003E3D9E /* AppDelegate.m in Sources */,
 				0073BBA2187E3EBF003E3D9E /* main.m in Sources */,
+				0073BBDC187E3EF4003E3D9E /* Catalog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +500,7 @@
 				0073BBC6187E3EBF003E3D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0073BBC7187E3EBF003E3D9E /* Build configuration list for PBXNativeTarget "Ex1.2.1Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +509,7 @@
 				0073BBC9187E3EBF003E3D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
